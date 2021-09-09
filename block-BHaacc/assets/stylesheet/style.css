@@ -1,0 +1,361 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* custom-style */
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 10%;
+} 
+li {
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 40px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h4 {
+    font-weight: 600;
+    color: rgb(53, 51, 51);
+    letter-spacing: -2px;
+}
+
+.hero {
+    background: linear-gradient(to right,rgba(34, 118, 221, 0.6)10%,rgba(87, 250, 103, 0.8)90%), url(../media/home-bg.jpg) no-repeat;
+    height: 1000px;
+    background-size: cover;
+}
+.nav-link {
+    width: 60%;
+    padding: 30px 0;
+    color: white;
+}
+.nav-link h2 {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+.sign-in-btn {
+    height: 50px;
+    width: 150px;
+    background-color: rgb(207,55,50);
+    border-radius: 30px;
+    font-weight: 700;
+}
+.top-nav a {
+    padding-right: 25px;
+}
+.web {
+    margin: 200px 0;
+    color: white;
+}
+.info {
+    width: 48%;
+}
+h1 {
+    font-size: 60px;
+    letter-spacing: -2px;
+    font-weight: 600;
+}
+.info h3 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 100px;
+}
+.call {
+    padding: 40px 0;
+}
+.project-btn  {
+    height: 60px;
+    width: 220px;
+    background: none;
+    border: 3px solid white;
+    border-radius: 40px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.article-intro {
+    width: 100%;
+}
+.intro {
+    padding-top: 60px;
+}
+.intro-heading h4 {
+    font-size: 36px;
+}
+.mini-square {
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    background-color: rgb(194, 193, 193);
+}
+p {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(111, 109, 109);
+    letter-spacing: -1.5px;
+    line-height: 1.8;
+    padding-bottom: 20px;
+}
+.intro-meter {
+    width: 50%;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(44, 42, 42);
+    padding: 100px 50px 0 30px;
+}
+.hr {
+    height: 2px;
+    background-color: black;
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; */
+    margin-right: 120px;
+    margin-bottom: 30px;
+}
+.line-1 {
+    width: 85%;
+}
+.line-2 {
+    width: 90%;
+}
+.line-3 {
+    width: 75%;
+}
+.line-4 {
+    width: 70%;
+}
+.intro-img img {
+    width: 100%
+}
+.section {
+    background-color: #EFEFEF;
+    
+}
+.section-heading {
+    text-align: center;
+    padding: 40px 0;
+}
+.section-heading h4 {
+    font-size: 40px;
+}
+.blog-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box {
+    flex: 0 1 48%;
+    background-color: white;
+    margin-bottom: 30px;
+ } 
+ .blog-article {
+     padding-left: 40px;
+ }
+.blog-article i {
+    color: crimson;
+    font-weight: 600;
+}
+.blog-header h4 {
+    font-size: 30px;
+    padding: 16px 0;
+}
+.blog-btn {
+    height: 60px;
+    width: 180px;
+    border-radius: 30px;
+    background-color: #dcd4d4;
+}
+.blog-btn a {
+    font-size: 20px;
+    color: rgb(36, 35, 35);
+    font-weight: 600;
+}
+.blog-img {
+    width: 48%;
+}
+.blog-img img {
+    width: 100%;
+}
+.work-img {
+    width: 20%;
+}
+.work-img img {
+    width: 100%;
+}
+.work-image {
+    margin-bottom: 50px;
+}
+.contact {
+    background-image: linear-gradient(to right,rgba(34, 118, 221, 0.6)10%,rgba(87, 250, 103, 0.8)90%);
+    /* margin: 80px 0 0 0; */
+}
+.contact-info {
+    padding: 20px 0 100px 0;
+}
+.contact h4 {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding: 40px 0 0 0;
+}
+.square {
+    text-align: center;
+}
+.white {
+    background-color: white;
+}
+.info {
+    width: 100%;  
+    flex-wrap: wrap; 
+}
+h6 {
+    padding: 20px;
+    margin: 20px 0;
+    width: 43%;
+    background-color: white;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(51, 49, 49);
+}
+.more-detail {
+    width: 60%;
+    padding-bottom: 30px;
+}
+.more-detail h5 {
+    background-color: white;
+    height: 150px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(61, 59, 59);
+    padding: 20px;
+}
+.send-btn {
+    height: 70px;
+    width: 250px;
+    background-color: rgb(207,55,50);
+    color: white;
+    border-radius: 35px;
+    margin-top: 30px;
+}
+.map-img {
+    width: 30%;
+    margin: 0 40px 50px 0;
+}
+.map-img iframe {
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+}
+.footer {
+    background-image: linear-gradient(to right, rgb(72, 67, 67), rgb(16, 15, 15));
+    color: white;
+    letter-spacing: -1px;
+}
+.hydro {
+    width: 35%;
+}
+.company {
+    width: 18%;
+    padding-bottom: 10px;
+}
+h3 {
+    font-size: 18px;
+}
+h2 {
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+}
+.service {
+    width: 18%;
+    padding-bottom: 30px;
+}
+.find {
+    width: 18%;
+    padding-bottom: 50px;
+}
+.support {
+    padding: 8% 0;
+}
+.footer-line {
+    border: 1px solid rgb(72, 70, 70);
+}
+.footer-nav {
+    padding-right: 250px;
+}
+.footer-nav a {
+    padding-right: 20px;
+    font-size: 20px;
+}
+.padding {
+    padding-left: 250px;
+    font-size: 20px;
+}
+small {
+    font-size: 20px;
+}
+.footer-bottom {
+    padding: 70px 0 100px 0;
+}    
