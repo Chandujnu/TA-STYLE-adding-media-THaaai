@@ -90,6 +90,9 @@ h4 {
     padding: 30px 0;
     color: white;
 }
+.nav-link a:hover {
+    color: brown;
+}
 .nav-link h2 {
     font-size: 35px;
     font-weight: 700;
@@ -102,8 +105,15 @@ h4 {
     border-radius: 30px;
     font-weight: 700;
 }
+.sign-in-btn a:hover{
+    color: rgb(111, 48, 4);
+}
 .top-nav a {
+    font-size: 20px;
     padding-right: 25px;
+}
+.top-nav a:hover {
+    color: brown;
 }
 .web {
     margin: 200px 0;
@@ -128,11 +138,15 @@ h1 {
 .project-btn  {
     height: 60px;
     width: 220px;
-    background: none;
+    background-color: transparent;
     border: 3px solid white;
     border-radius: 40px;
     font-size: 18px;
     font-weight: 700;
+}
+.project-btn:hover {
+    color: white;
+    background-color: crimson;
 }
 .article-intro {
     width: 100%;
@@ -167,9 +181,6 @@ p {
 .hr {
     height: 2px;
     background-color: black;
-    /* display: flex;
-    justify-content: flex-start;
-    align-items: flex-start; */
     margin-right: 120px;
     margin-bottom: 30px;
 }
@@ -231,6 +242,12 @@ p {
     color: rgb(36, 35, 35);
     font-weight: 600;
 }
+.blog-btn:hover {
+    background-color: crimson;
+}
+.blog-btn a:hover{
+    color: white;
+}
 .blog-img {
     width: 48%;
 }
@@ -248,7 +265,6 @@ p {
 }
 .contact {
     background-image: linear-gradient(to right,rgba(34, 118, 221, 0.6)10%,rgba(87, 250, 103, 0.8)90%);
-    /* margin: 80px 0 0 0; */
 }
 .contact-info {
     padding: 20px 0 100px 0;
@@ -292,12 +308,17 @@ h6 {
     padding: 20px;
 }
 .send-btn {
+    font-size: 18px;
+    font-weight: 700;
     height: 70px;
     width: 250px;
     background-color: rgb(207,55,50);
     color: white;
     border-radius: 35px;
     margin-top: 30px;
+}
+.send-btn a:hover {
+    color: rgb(49, 48, 48);
 }
 .map-img {
     width: 30%;
