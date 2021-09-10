@@ -147,6 +147,7 @@ h1 {
 .project-btn:hover {
     color: white;
     background-color: crimson;
+    border: 0;
 }
 .article-intro {
     width: 100%;
